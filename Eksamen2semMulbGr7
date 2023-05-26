@@ -1,3 +1,4 @@
+<html>
 <style> 
 HTML { color: #0000000;
 font-family: Georgia;
@@ -18,3 +19,4 @@ font-family: Georgia;
   } 
     writeRandomQuote();
     </script>
+</html>
