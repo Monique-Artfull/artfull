@@ -1,0 +1,10 @@
+
+.designed-by,
+#footer-copy .wpzoom,
+#footer .wpzoom,
+.site-info .designed-by,
+.site-info p.right,
+.footer-info .designed,
+.site-info .copyright span:nth-child(2) {
+    display: none;
+}
