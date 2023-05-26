@@ -1,0 +1,20 @@
+<style> 
+HTML { color: #0000000;
+font-family: Georgia;
+    font-style: italic;
+}
+</style>
+
+
+ <script type="text/javascript">
+    writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = "“Being silly is still allowed, not excluded by adulthood. What's excluded by adulthood is thoughtlessness, so be thoughtful and silly”- Hank Green.";
+    quotes[1] = "“Vi som børn vokser op med en idé om at vosne ved alt, kan alt, og kan gøre alt af natur, Jeg kan dog konstatere at voksne er bare børn i større sko ”- Monique Fruerlund.";
+    quotes[2] = "“Det er kun sjovt at være voksen, når man ikke skal bruge penge på det”- Emma Hjort.";
+    quotes[3] = "“Don't Grow up! (it's a trap)”- someone on the internet.";
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  } 
+    writeRandomQuote();
+    </script>
